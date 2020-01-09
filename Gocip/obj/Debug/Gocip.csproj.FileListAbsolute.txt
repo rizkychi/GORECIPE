@@ -1,0 +1,138 @@
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\Gocip\Gocip\bin\Debug\Gocip.exe.config
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\Gocip\Gocip\bin\Debug\Gocip.exe
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\Gocip\Gocip\bin\Debug\Gocip.pdb
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\Gocip\Gocip\obj\Debug\Gocip.csprojResolveAssemblyReference.cache
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\Gocip\Gocip\obj\Debug\App.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\Gocip\Gocip\obj\Debug\Gocip_MarkupCompile.cache
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\Gocip\Gocip\obj\Debug\Gocip_MarkupCompile.lref
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\Gocip\Gocip\obj\Debug\Gocip.g.resources
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\Gocip\Gocip\obj\Debug\Gocip.Properties.Resources.resources
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\Gocip\Gocip\obj\Debug\Gocip.csproj.GenerateResource.Cache
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\Gocip\Gocip\obj\Debug\Gocip.exe
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\Gocip\Gocip\obj\Debug\Gocip.pdb
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\GOCIP\Gocip\obj\Debug\View\LoginWindow.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\GOCIP\Gocip\obj\Debug\View\LoginWindow.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\GOCIP\Gocip\obj\Debug\View\AdmMainPage.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\GOCIP\Gocip\obj\Debug\View\AdmMainPage.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\GOCIP\Gocip\obj\Debug\App.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\GOCIP\Gocip\obj\Debug\View\AdmHomePage.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\GOCIP\Gocip\obj\Debug\View\AdmHomePage.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\GOCIP\Gocip\obj\Debug\View\CustMainPage.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\GOCIP\Gocip\obj\Debug\View\CustMainPage.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\GOCIP\Gocip\obj\Debug\View\Beranda.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\GOCIP\Gocip\obj\Debug\View\Beranda.baml
+C:\Users\Lucia\Source\Repos\go-recipe2\Gocip\bin\Debug\Gocip.exe.config
+C:\Users\Lucia\Source\Repos\go-recipe2\Gocip\obj\Debug\Gocip.exe
+C:\Users\Lucia\Source\Repos\go-recipe2\Gocip\obj\Debug\Gocip.pdb
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\bin\Debug\Gocip.exe.config
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\Gocip.exe
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\Gocip.pdb
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\bin\Debug\Gocip.exe
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\bin\Debug\Gocip.pdb
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\Gocip.csprojResolveAssemblyReference.cache
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\View\AdmMainPage.g.cs
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\View\AdmHomePage.g.cs
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\View\Beranda.g.cs
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\View\CustMainPage.g.cs
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\View\LoginWindow.g.cs
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\App.g.cs
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\Gocip_MarkupCompile.cache
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\Gocip_MarkupCompile.lref
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\App.baml
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\View\AdmMainPage.baml
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\View\AdmHomePage.baml
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\View\Beranda.baml
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\View\CustMainPage.baml
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\View\LoginWindow.baml
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\Gocip.g.resources
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\Gocip.Properties.Resources.resources
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\Gocip.csproj.GenerateResource.Cache
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\View\DataUserPage.g.cs
+C:\Users\Anash\Source\Repos\go-recipe\Gocip\obj\Debug\View\DataUserPage.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\bin\Debug\Gocip.exe.config
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\bin\Debug\Gocip.exe
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\bin\Debug\Gocip.pdb
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\AdmMainPage.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\AdmHomePage.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\CustMainPage.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\DataIngredientPage.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\DataKategoriPage.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\DataRecipeInsert.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\DataRecipePage.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\DataUserPage.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\LoginWindow.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\App.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\Gocip_MarkupCompile.cache
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\Gocip_MarkupCompile.lref
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\App.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\AdmMainPage.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\AdmHomePage.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\CustMainPage.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\DataIngredientPage.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\DataKategoriPage.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\DataRecipeInsert.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\DataRecipePage.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\DataUserPage.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\LoginWindow.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\Gocip.g.resources
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\Gocip.Properties.Resources.resources
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\Gocip.csproj.GenerateResource.Cache
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\Gocip.exe
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\Gocip.pdb
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\bin\Debug\Gocip.exe.config
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\Gocip.exe
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\Gocip.pdb
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\Gocip.csprojResolveAssemblyReference.cache
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\AdmMainPage.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\AdmHomePage.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\Beranda.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\CustMainPage.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\DataIngredientPage.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\DataKategoriPage.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\DataRecipeInsert.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\DataRecipePage.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\DataUserPage.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\DetailMakanan.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\Kategori.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\LoginWindow.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\Popular.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\App.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\Gocip_MarkupCompile.cache
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\Gocip_MarkupCompile.lref
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\bin\Debug\Gocip.exe
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\bin\Debug\Gocip.pdb
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\App.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\AdmMainPage.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\AdmHomePage.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\Beranda.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\CustMainPage.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\DataIngredientPage.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\DataKategoriPage.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\DataRecipeInsert.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\DataRecipePage.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\DataUserPage.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\DetailMakanan.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\Kategori.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\LoginWindow.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\Popular.baml
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\Gocip.g.resources
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\Gocip.Properties.Resources.resources
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\Gocip.csproj.GenerateResource.Cache
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\KategoriDetail.g.cs
+D:\AMIKOM\SEMESTER 3\PEMROGRAMAN\go-recipe\Gocip\obj\Debug\View\KategoriDetail.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\bin\Debug\QRCoder.dll
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\CustHomePage.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\CustHomePage.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\CustRecipeDetail.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\CustRecipeDetail.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\CustPopularPage.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\CustPopularPage.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\CustSearchRecipe.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\CustSearchRecipe.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\CustRequestPage.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\CustRequestPage.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\CustCategoryPage.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\CustCategoryPage.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\DataFeedbackPage.g.cs
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\View\DataFeedbackPage.baml
+D:\Kuliah\Semester 3\Pemrograman Lanjut\FINALPROYEK(GORECIPE)\Gocip\obj\Debug\Gocip.csprojResolveAssemblyReference.cache

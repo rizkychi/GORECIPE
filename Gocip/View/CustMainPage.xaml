@@ -1,0 +1,68 @@
+﻿<Window x:Class="Gocip.View.CustMainPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gocip.View"
+        mc:Ignorable="d"
+        Title="CustMainPage">
+    
+    <Grid Background="#F1F2F7">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--Header-->
+        <Grid Background="#FFFE2F39" Margin="0,0,0,0" Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="600*"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1" Height="50" VerticalAlignment="Bottom">
+                <Label x:Name="label" Content="Go Recipe" Margin="0,-10,0,0" HorizontalAlignment="Center" FontFamily="/Gocip;component/Fonts/#Slow Life" FontSize="66.667" Foreground="White" />
+            </Grid>
+
+            <Grid Grid.Column="2" Height="50" VerticalAlignment="Bottom">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="130"/>
+                    <ColumnDefinition Width="130"/>
+                    <ColumnDefinition Width="190"/>
+                    <ColumnDefinition Width="190"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <DockPanel  Grid.Column="0" Style="{DynamicResource Gaya1}">
+                    <Label x:Name="lblBeranda" Content="Beranda" Margin="0,4,0,0" HorizontalAlignment="Center" FontFamily="Calibri" FontSize="25" Foreground="White" Grid.Column="0" MouseDown="lblBeranda_MouseDown" />
+                </DockPanel>
+                <DockPanel Grid.Column="1"  Style="{DynamicResource Gaya1}">
+                    <Label x:Name="lblKategori" Content="Kategori" Margin="0,4,0,0" HorizontalAlignment="Center" FontFamily="Calibri" FontSize="25" Foreground="White" Grid.Column="1" MouseDown="lblKategori_MouseDown"/>
+                </DockPanel>
+                <DockPanel Grid.Column="2"  Style="{DynamicResource Gaya1}">
+                    <Label x:Name="lblMenuPopuler" Content="Menu Populer" Margin="0,4,0,0" HorizontalAlignment="Center" FontFamily="Calibri" FontSize="25" Foreground="White" Grid.Column="2" MouseDown="lblMenuPopuler_MouseDown"/>
+                </DockPanel>
+                <DockPanel Grid.Column="3"  Style="{DynamicResource Gaya1}">
+                    <Label x:Name="lblContact" Content="Kritik Saran" Margin="0,4,0,0" HorizontalAlignment="Center" FontFamily="Calibri" FontSize="25" Foreground="White" Grid.Column="2" MouseDown="lblContact_MouseDown"/>
+                </DockPanel>
+            </Grid>
+            <Grid Grid.Column="3" Height="50" VerticalAlignment="Bottom">
+                <Image x:Name="btnSearch" Margin="16,0,0,0" HorizontalAlignment="Left" Width="25" Source="/Gocip;component/Img/search_white.png" MouseDown="btnSearch_MouseDown" MouseEnter="btnSearch_MouseEnter" MouseLeave="btnSearch_MouseLeave" />
+                <Image x:Name="btnExit"  Margin="0,0,40,0" HorizontalAlignment="Right" Width="25" Source="/Gocip;component/Img/logout.png" MouseDown="btnExit_MouseDown" MouseEnter="btnExit_MouseEnter" MouseLeave="btnExit_MouseLeave"/>
+            </Grid>
+        </Grid>
+
+        <!--Body-->
+        <DockPanel LastChildFill="True" Grid.Row="1">
+            <ScrollViewer Name="myscroll" VerticalScrollBarVisibility="Auto">
+                <Grid>
+                    <Frame x:Name="frame" NavigationUIVisibility="Hidden" Source="CustHomePage.xaml" Margin="0,0,0,10" Navigated="frame_Navigated" />
+                    <!--Footer-->
+                    <Label x:Name="lblCopyright" FontSize="10"  VerticalAlignment="Bottom" Content="Copyright 2018 Go-Recipe" HorizontalAlignment="Center" Margin="0,5,0,0" Foreground="#777"/>
+                </Grid>
+            </ScrollViewer>
+        </DockPanel>
+
+    </Grid>
+</Window>

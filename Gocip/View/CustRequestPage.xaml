@@ -1,0 +1,47 @@
+﻿<Page x:Class="Gocip.View.CustRequestPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Gocip.View"
+      mc:Ignorable="d" 
+      MinWidth="1280"
+      MinHeight="600"
+      Title="CustRequestPage">
+
+    <Grid>
+        <Grid Background="#F1F2F7">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Background="#444" Grid.Row="0"></Grid>
+            <Image Source="/Gocip;component/Img/one_cropped.jpg" Opacity="0.7" Grid.Row="0" Stretch="Fill"></Image>
+            <Border CornerRadius="1" BorderThickness="1" BorderBrush="#fff" Width="700" Margin="0,-220,0,50" Grid.Row="1" >
+                <Grid Background="#fff">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70" />
+                        <RowDefinition Height="80" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="290" />
+                    </Grid.RowDefinitions>
+                    <Label Content="Kritik dan Saran" FontSize="26" VerticalContentAlignment="Bottom" HorizontalAlignment="Center" Foreground="#333" FontFamily="/Gocip;component/Fonts/#A Calling" Grid.Row="0"/>
+                    <TextBlock Text="Masukkan kritik dan saran anda pada kolom dibawah, anda juga dapat menuliskan request resep yang belum ada pada aplikasi ini."  TextWrapping="Wrap" Width="450" Grid.Row="1" VerticalAlignment="Center" TextAlignment="Center" Foreground="#777" FontStyle="Italic" FontSize="14" />
+                    <TextBox Background="WhiteSmoke" x:Name="txtNama" Text="Nama Lengkap"  Grid.Row="2" Width="280" HorizontalAlignment="Left" Margin="50,0,0,0" GotFocus="txtNama_GotFocus" LostFocus="txtNama_LostFocus"/>
+                    <TextBox Background="WhiteSmoke" x:Name="txtPhone" Text="Nomor Telepon"  Grid.Row="2" Width="200" HorizontalAlignment="Right" Margin="0,0,160,0" PreviewTextInput="PhoneNumber" GotFocus="txtPhone_GotFocus" LostFocus="txtPhone_LostFocus"/>
+                    <RichTextBox Background="WhiteSmoke" x:Name="txtPesan" Height="245" Grid.Column="0" Grid.Row="3" ScrollViewer.VerticalScrollBarVisibility="Auto" Margin="50,0,50,30" GotFocus="txtPesan_GotFocus" LostFocus="txtPesan_LostFocus">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="Kritik dan Saran"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <Button x:Name="btnKirim" Content="Kirim" Grid.Row="2" HorizontalAlignment="Right" Margin="0,0,50,0" Click="btnKirim_Click"/>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Page>

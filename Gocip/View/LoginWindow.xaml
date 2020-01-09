@@ -1,0 +1,47 @@
+﻿<Window x:Class="Gocip.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gocip"
+        mc:Ignorable="d"
+        Title="MainWindow" Width="1280" Height="800">
+    <Grid Margin="0,0,0,0" RenderTransformOrigin="0.5,0.639">
+        <Grid.Background>
+            <ImageBrush ImageSource="../Img/back.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="339*"></RowDefinition>
+            <RowDefinition Height="296"></RowDefinition>
+            <RowDefinition Height="134*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="146*"></ColumnDefinition>
+            <ColumnDefinition Width="494"></ColumnDefinition>
+            <ColumnDefinition Width="159*"></ColumnDefinition>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="1" Grid.Column="1" RenderTransformOrigin="0,0">
+            <TabControl x:Name="tabControl" HorizontalAlignment="Right" Height="234" Width="440" Opacity="0.8" Margin="0,0,18,0">
+                <TabItem Header="Admin Login" Background="#FFCF4D4D" Margin="-2,0,-108,0" FontFamily="Futura Md BT" FontSize="16">
+                    <Grid Background="#FFD68181" HorizontalAlignment="Right" Width="440">
+                        <Label x:Name="lblUsername" Content="Username" HorizontalAlignment="Left" Height="33" Margin="81,45,0,0" VerticalAlignment="Top" Width="86" FontFamily="Futura Md BT"/>
+                        <TextBox x:Name="txtUsername" Margin="167,45,0,121" TextWrapping="Wrap" Text="" Width="197" HorizontalAlignment="Left" RenderTransformOrigin="0.501,0.589" FontSize="14"/>
+                        <Label x:Name="lblPassword" Content="Password" HorizontalAlignment="Left" Height="33" Margin="81,80,0,0" VerticalAlignment="Top" Width="86" FontFamily="Futura Md BT"/>
+                        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="28" Margin="167,85,0,0" VerticalAlignment="Top" Width="197" FontSize="14"/>
+                        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Center" Margin="0,0,0,20" VerticalAlignment="Bottom" Click="btnLogin_Click_1"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Customer Login" Background="#FFCF4D4D" Margin="108,0,-108,0" HorizontalAlignment="Left" Width="220" FontSize="16" FontFamily="Futura Md BT" Height="30">
+                    <Grid Background="#FFD68181" Width="440">
+                        <Label x:Name="lblUsername2" Content="Username" HorizontalAlignment="Left" Height="33" Margin="75,45,0,0" VerticalAlignment="Top" Width="86" FontFamily="Futura Md BT"/>
+                        <TextBox x:Name="txtUsername2" Margin="161,45,0,121" TextWrapping="Wrap" Text="" Width="197" HorizontalAlignment="Left" FontSize="14"/>
+                        <Label x:Name="lblPassword2" Content="Password" HorizontalAlignment="Left" Height="33" Margin="75,80,0,0" VerticalAlignment="Top" Width="86" FontFamily="Futura Md BT"/>
+                        <PasswordBox x:Name="passwordBox2" HorizontalAlignment="Left" Height="28" Margin="161,85,0,0" VerticalAlignment="Top" Width="197" FontSize="14"/>
+                        <Button x:Name="btnLogin2" Content="Login" HorizontalAlignment="Center"  Margin="0,0,12,20" VerticalAlignment="Bottom" Click="btnLogin2_Click"/>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </StackPanel>
+    </Grid>
+</Window>

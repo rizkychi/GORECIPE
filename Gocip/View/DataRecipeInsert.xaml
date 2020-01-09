@@ -1,0 +1,153 @@
+﻿<Page x:Class="Gocip.View.DataRecipeInsert"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Gocip.View"
+      mc:Ignorable="d" 
+      MinWidth="700"
+      MinHeight="250"
+      Margin="15,15,15,15"
+      Title="DataRecipeInsert">
+
+    <Grid>
+        <Border CornerRadius="1" BorderThickness="1" BorderBrush="#fff" >
+            <StackPanel Background="#fff">
+                <Label x:Name="lblJudul" Content="Tambah Resep" FontSize="20" Foreground="#000" Margin="10,8,8,8" FontWeight="ExtraLight" FontFamily="Open sans"/>
+                <Border Background="#F1F2F7" Height="1"/>
+                <Grid Margin="10,0,10,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid Margin="0,10,0,10" Grid.Row="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30*" />
+                            <RowDefinition Height="30*" />
+                            <RowDefinition Height="30*" />
+                            <RowDefinition Height="30*" />
+                            <RowDefinition Height="30*" />
+                            <RowDefinition Height="30*" />
+                            <RowDefinition Height="30*" />
+                            <RowDefinition Height="30*" />
+                            <RowDefinition Height="30*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150" />
+                            <ColumnDefinition Width="1*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Nama Resep" FontSize="12" Foreground="Black" Grid.Column="0" Grid.Row="0" VerticalAlignment="Center"  Height="30" />
+                        <Label Content="Deskripsi" FontSize="12" Foreground="Black" Grid.Column="0" Grid.Row="1" VerticalAlignment="Center"  Height="30" />
+                        <Label Content="Gambar Masakan" FontSize="12" Foreground="Black" Grid.Column="0" Grid.Row="2" VerticalAlignment="Center"  Height="30" />
+                        <Label Content="Bahan - bahan" FontSize="12" Foreground="Black" Grid.Column="0" Grid.Row="3" VerticalAlignment="Center"  Height="30" />
+                        <Label Content="Kategori" FontSize="12" Foreground="Black" Grid.Column="0" Grid.Row="5" VerticalAlignment="Center"  Height="30" />
+                        <Label Content="Cara Memasak" FontSize="12" Foreground="Black" Grid.Column="0" Grid.Row="7" VerticalAlignment="Center"  Height="30" />
+                        <Label Content="Link Video" FontSize="12" Foreground="Black" Grid.Column="0" Grid.Row="8" VerticalAlignment="Center"  Height="30" />
+                        <TextBox x:Name="txtRecipe_ID"  Text="" Width="300" Visibility="Hidden"/>
+                        <TextBox x:Name="txtRecipeName"  Text="Masukkan nama resep" Width="300" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center" GotFocus="txtRecipeName_GotFocus" />
+                        <RichTextBox x:Name="txtDeskripsi" Height="100" Grid.Column="1" Grid.Row="1" ScrollViewer.VerticalScrollBarVisibility="Auto" GotFocus="txtDeskripsi_GotFocus">
+                            <FlowDocument>
+                                <Paragraph>
+                                    <Run Text="Deskripsi resep. (maks 300 karakter)"/>
+                                </Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        <Button x:Name="btnBrowse" Content="Browse" Grid.Column="1" Grid.Row="2" Margin="5,5,5,5" HorizontalAlignment="Left" Click="btnBrowse_Click"/>
+                        <Label Name="lblImgUploadName" Content="" FontSize="12" Foreground="Black" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" Height="30" Margin="110,0,0,0" />
+                        <Label Name="lblImgPath" Content="" FontSize="12" Foreground="Black" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" Height="30" Margin="110,0,0,0" Visibility="Hidden" />
+                        <Border BorderBrush="{Binding Path=BorderBrush, ElementName=cmbBahan}" BorderThickness="1" Grid.Column="1" Height="30" Grid.Row="3" CornerRadius="2" Width="200"  HorizontalAlignment="Left" Margin="5,5,5,5">
+                            <ComboBox x:Name="cmbBahan" Text="- Pilih Bahan Masakan -" ItemsSource="{Binding}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsEditable="True" ScrollViewer.VerticalScrollBarVisibility="Auto" LostFocus="cmbBahan_LostFocus" />
+                        </Border>
+                        <ComboBox x:Name="cmbPrice" ItemsSource="{Binding}" HorizontalAlignment="Right" Visibility="Hidden"/>
+                        <ComboBox x:Name="cmbUnit" ItemsSource="{Binding}" HorizontalAlignment="Right" Visibility="Hidden"/>
+                        <Border BorderBrush="{Binding Path=BorderBrush, ElementName=cmbSatuan}" BorderThickness="1" Grid.Column="1" Height="30" Grid.Row="3" CornerRadius="2" Width="100"  HorizontalAlignment="Left" Margin="215,5,5,5">
+                            <ComboBox x:Name="cmbSatuan" Text="- Satuan -" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsEditable="True" ScrollViewer.VerticalScrollBarVisibility="Auto" LostFocus="cmbSatuan_LostFocus">
+                                <ComboBoxItem Content="kg" />
+                                <ComboBoxItem Content="ons" />
+                                <ComboBoxItem Content="gram" />
+                                <ComboBoxItem Content="liter" />
+                                <ComboBoxItem Content="ml" />
+                                <ComboBoxItem Content="cup" />
+                                <ComboBoxItem Content="sdt" />
+                                <ComboBoxItem Content="sdm" />
+                                <ComboBoxItem Content="btr" />
+                                <ComboBoxItem Content="bks" />
+                                <ComboBoxItem Content="btg" />
+                                <ComboBoxItem Content="pcs" />
+                                <ComboBoxItem Content="secukupnya" />
+                            </ComboBox>
+                        </Border>
+                        <TextBox x:Name="txtJumlah"  Text="Jumlah" Width="100" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="325,5,5,5" GotFocus="txtJumlah_GotFocus" LostFocus="txtJumlah_LostFocus" ToolTip="Gunakan koma untuk angka desimal"/>
+                        <Button x:Name="btnTambahBahan" Content="Tambah" Grid.Column="1" Grid.Row="3" Margin="435,5,5,5" HorizontalAlignment="Left" Click="btnTambahBahan_Click" />
+                        <Button x:Name="btnHapusBahan" Content="Hapus" Grid.Column="1" Grid.Row="3" Margin="545,5,5,5" HorizontalAlignment="left" Click="btnHapusBahan_Click"/>
+                        <StackPanel Margin="5,5,5,5" Grid.Row="4" Grid.Column="1" MinWidth="640" HorizontalAlignment="Left">
+                            <DataGrid x:Name="dgBahan" x:Uid="dgBahan" ItemsSource="{Binding}" Height="140" AutoGenerateColumns="False" SelectedIndex="0" IsReadOnly="True" CanUserResizeColumns="False" CanUserResizeRows="False" CanUserReorderColumns="False" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Binding="{Binding Path = id_ingredient}" Header="Id" Width="40" Visibility="Hidden"/>
+                                    <DataGridTextColumn Binding="{Binding Path = name}" Header="Nama Bahan" Width="*" />
+                                    <DataGridTextColumn Binding="{Binding Path = amount, StringFormat='{}{0:N3}'}" Header="Jumlah" Width="*" />
+                                    <DataGridTextColumn Binding="{Binding Path = unit}" Header="Satuan" Width="*" />
+                                    <DataGridTextColumn Binding="{Binding Path = price}" Header="Harga" Width="*" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </StackPanel>
+                        <Border BorderBrush="{Binding Path=BorderBrush, ElementName=cmbBahan}" BorderThickness="1" Grid.Column="1" Height="30" Grid.Row="5" CornerRadius="2" Width="200"  HorizontalAlignment="Left" Margin="5,5,5,5">
+                            <ComboBox x:Name="cmbKategoriUtama" Text="- Pilih Kategori Utama -" ItemsSource="{Binding}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsEditable="True" ScrollViewer.VerticalScrollBarVisibility="Auto" LostFocus="cmbKategoriUtama_LostFocus">
+                                <ComboBoxItem Content="Khas" />
+                                <ComboBoxItem Content="Rasa" />
+                                <ComboBoxItem Content="Jenis" />
+                                <ComboBoxItem Content="Bahan Utama" />
+                                <ComboBoxItem Content="Metode" />
+                                <ComboBoxItem Content="Lainnya" />
+                            </ComboBox>
+                        </Border>
+                        <Border BorderBrush="{Binding Path=BorderBrush, ElementName=cmbSatuan}" BorderThickness="1" Grid.Column="1" Height="30" Grid.Row="5" CornerRadius="2" Width="210"  HorizontalAlignment="Left" Margin="215,5,5,5">
+                            <ComboBox x:Name="cmbKategori" Text="- Nama Kategori -" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsEditable="True" ScrollViewer.VerticalScrollBarVisibility="Auto" />
+                        </Border>
+                        <Button x:Name="btnTambahKategori" Content="Tambah" Grid.Column="1" Grid.Row="5" Margin="435,5,5,5" HorizontalAlignment="Left" Click="btnTambahKategori_Click" />
+                        <Button x:Name="btnHapusKategori" Content="Hapus" Grid.Column="1" Grid.Row="5" Margin="545,5,5,5" HorizontalAlignment="left" Click="btnHapusKategori_Click" />
+                        <StackPanel Margin="5,5,5,5" Grid.Row="6" Grid.Column="1" MinWidth="640" HorizontalAlignment="Left">
+                            <DataGrid x:Name="dgKategori" x:Uid="dgBahan" ItemsSource="{Binding}" Height="140" AutoGenerateColumns="False" SelectedIndex="0" IsReadOnly="True" CanUserResizeColumns="False" CanUserResizeRows="False" CanUserReorderColumns="False" ScrollViewer.VerticalScrollBarVisibility="Auto" LoadingRow="dgKategori_LoadingRow" >
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Binding="{Binding Path = id_category}" Header="Id" Width="40" Visibility="Hidden"/>
+                                    <DataGridTextColumn Binding="{Binding Path = name}" Header="Nama Kategori" Width="*" />
+                                    <DataGridTextColumn Binding="{Binding Path = main_category}" Header="Kategori Utama" Width="*" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </StackPanel>
+                        <RichTextBox x:Name="txtCaraMasak" Height="200" Grid.Column="1" Grid.Row="7" ScrollViewer.VerticalScrollBarVisibility="Auto" GotFocus="txtCaraMasak_GotFocus">
+                            <FlowDocument>
+                                <Paragraph>
+                                    <Run Text="Langkah - langkah memasak. (Pisahkan tiap langkah dengan Enter)"/>
+                                </Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        <TextBox x:Name="txtVideo"  Text="Masukkan link video" Width="300" Grid.Column="1" Grid.Row="8" HorizontalAlignment="Left" VerticalAlignment="Center" GotFocus="txtVideo_GotFocus" />
+                        <Label Name="mydesc" Content="" FontSize="12" Foreground="Black" Grid.Column="1" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left" Height="30" Margin="110,0,0,0" Visibility="Hidden" />
+                        <Label Name="mymethod" Content="" FontSize="12" Foreground="Black" Grid.Column="1" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Left" Height="30" Margin="110,0,0,0" Visibility="Hidden" />
+                    </Grid>
+                    <!--<Grid Margin="0,10,0,10" Height="40" Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="140"></ColumnDefinition>
+                            <ColumnDefinition Width="3*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                    </Grid>-->
+                    <Grid Margin="0,0,0,10" Height="40" Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="110"></ColumnDefinition>
+                            <ColumnDefinition Width="110"></ColumnDefinition>
+                            <ColumnDefinition Width="110"></ColumnDefinition>
+                            <ColumnDefinition Width="3*"></ColumnDefinition>
+                            <ColumnDefinition Width="110"></ColumnDefinition>
+                            <ColumnDefinition Width="110"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnSimpan_Tambah" Content="Simpan" Grid.Column="4" Click="btnSimpan_Tambah_Click" Visibility="Hidden" />
+                        <Button x:Name="btnSimpan_Ubah" Content="Simpan" Grid.Column="4" Click="btnSimpan_Ubah_Click" Visibility="Hidden" />
+                        <Button x:Name="btnBatal" Content="Batal" Grid.Column="5" Click="btnBatal_Click" />
+                    </Grid>
+                </Grid>
+                
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

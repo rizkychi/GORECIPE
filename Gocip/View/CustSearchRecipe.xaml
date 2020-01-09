@@ -1,0 +1,33 @@
+﻿<Page x:Class="Gocip.View.CustSearchRecipe"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Gocip.View"
+      mc:Ignorable="d" 
+      MinWidth="1280"
+      MinHeight="600"
+      Title="CustSearchRecipe">
+
+    <Grid>
+        <Grid Background="#F1F2F7">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Background="#444" Grid.Row="0"></Grid>
+            <Image Source="/Gocip;component/Img/intro_cropped.jpg" Opacity="0.7" Grid.Row="0" Stretch="Fill"></Image>
+            <TextBox x:Name="txtSearchBox" Foreground="#777" Opacity="0.9" TextWrapping="NoWrap" Width="450" Height="50" Text="Cari Resep Disini" FontSize="18" Grid.Row="0" VerticalContentAlignment="Center" Padding="20,5,60,5" GotFocus="txtSearchBox_GotFocus" LostFocus="txtSearchBox_LostFocus" KeyDown="txtSearchBox_KeyDown"></TextBox>
+            <Image x:Name="btnCari" Source="/Gocip;component/Img/Search.png" Width="25" Height="25" Margin="390,0,0,0" Opacity="0.6" MouseDown="btnCari_MouseDown" MouseEnter="btnCari_MouseEnter"/>
+            <Label Content="Hasil Pencarian" FontSize="26" VerticalContentAlignment="Bottom" HorizontalAlignment="Center" Foreground="#333" FontFamily="/Gocip;component/Fonts/#A Calling" Grid.Row="1"/>
+            <Label Name="lblNotFound" Content="Tidak ada data" FontSize="24"  Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Gray" FontStyle="Italic" Visibility="Visible"/>
+            <WrapPanel Name="TileItem" Orientation="Horizontal" Grid.Row="3" Margin="25,0,20,0">
+
+            </WrapPanel>
+        </Grid>
+    </Grid>
+</Page>
